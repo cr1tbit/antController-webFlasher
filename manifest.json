@@ -1,0 +1,17 @@
+{
+    "name": "AntController-fw",
+    "version": "10.0",
+    "new_install_skip_erase": true,
+    "builds": [
+      {
+        "chipFamily": "ESP32",
+        "parts": [
+          {
+            "path": "https://github.com/cr1tbit/antController-fw/suites/15417230199/artifacts/880359471",
+            "offset": 0
+          }
+        ]
+      }
+    ]
+  }
+  
