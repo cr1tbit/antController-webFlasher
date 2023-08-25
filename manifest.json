@@ -7,7 +7,7 @@
         "chipFamily": "ESP32",
         "parts": [
           {
-            "path": "https://github.com/cr1tbit/antController-fw/suites/15417230199/artifacts/880359471",
+            "path": "merged-flash.bin",
             "offset": 0
           }
         ]
