@@ -1,6 +1,6 @@
 {
     "name": "AntController-fw",
-    "version": "10.0",
+    "version": "11.0",
     "new_install_skip_erase": true,
     "builds": [
       {
