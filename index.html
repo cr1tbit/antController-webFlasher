@@ -109,8 +109,18 @@
   </head>
   <body>
     <div class="content">
-      <h1>ESP Web Tools</h1>      
+      <h1>Antcontroller Flasher site</h1>
+      <h3>Current revision: v0.12.1</h3>
+      <h2>full image</h2>      
       <esp-web-install-button manifest="manifest.json">
+        <i slot="unsupported">
+          The demo is not available because your browser does not support Web
+          Serial. Open this page in Google Chrome or Microsoft Edge instead
+          >.
+        </i>
+      </esp-web-install-button>
+      <h2>firmware only</h2>      
+      <esp-web-install-button manifest="manifest_fwonly.json">
         <i slot="unsupported">
           The demo is not available because your browser does not support Web
           Serial. Open this page in Google Chrome or Microsoft Edge instead
